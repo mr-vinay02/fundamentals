@@ -5,7 +5,7 @@ public class MyArray<T> {
     T[] Array = null;
     int size;
 
-    public MyArray(int size) {
+    public MyArray() {
         this.size = 0;
         Array = (T[]) new Object[16];
     }
@@ -20,6 +20,11 @@ public class MyArray<T> {
 
     public void resize() {
          T[] reSizedArray = (T[]) new Object[Array.length * 2];
+         int index = 0;
+         for (T element : Array)
+         {
+             reSizedArray[index++] = element;
+         }
 
          Array = reSizedArray;
     }
@@ -39,13 +44,19 @@ public class MyArray<T> {
         if(index > Array.length)
             System.out.println("Index is not in range...");
 
-        for (int i = 0; i < Array.length; i++) {
-            if( i == index)
-                return Array[index];
-        }
-        return null;
+
+        return Array[index];
     }
 
+    public void display()
+    {
+        for(T element : Array)
+        {
+            if(element != null)
+            System.out.print(element +" ");
+        }
+        System.out.println();
+    }
 
 
 
