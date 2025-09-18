@@ -23,20 +23,21 @@ public class Warehouse {
 
     }
 
-    public Products getProductById(int id)
-    {
-        for(Products products1 : products)
-        {
-            if( id == products1.getProductid())
-                return products1;
+    public Products getProductById(int id) {
+        for (int i = 0; i < productCount; i++) {
+            if (products[i].getProductid() == id) {
+                return products[i];
+            }
         }
         return null;
     }
+
 
     public void displayProducts()
     {
         System.out.println("Displaying all products....");
         for(Products products1 : products){
+            if(products1 != null)
             System.out.println(products1);
         }
     }
