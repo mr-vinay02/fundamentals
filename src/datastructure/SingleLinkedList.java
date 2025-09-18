@@ -187,7 +187,7 @@ public class SingleLinkedList<T> {
         Node slow = head;
         Node fast = head;
 
-        while(fast != null && slow != null)
+        while(fast.next != null && slow != null)
         {
             slow = slow.next;
             fast = fast.next.next;
