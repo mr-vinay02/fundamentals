@@ -12,6 +12,7 @@ public class StackUsingLinkedList<T> {
     }
 
     private Node top;
+    private int size = 0;
 
     public void push(T data)
     {
@@ -19,12 +20,45 @@ public class StackUsingLinkedList<T> {
 
         newNode.next = top;
         top = newNode;
+        size++;
     }
 
     public T pop()
     {
+        if(top == null)
+            throw new RuntimeException("Stack is Empty");
+
         T data = top.data;
         top = top.next;
+        size--;
         return data;
+    }
+
+    public T peek()
+    {
+        if(top == null)
+            throw new RuntimeException("Stack is Empty");
+
+        return top.data;
+    }
+
+    public boolean isEmpty()
+    {
+        return top == null;
+    }
+
+
+    public void display()
+    {
+        Node temp = top;
+        while(temp != null){
+            System.out.println(temp.data);
+            temp = temp.next;
+        }
+    }
+
+    public int getSize()
+    {
+        return size;
     }
 }
