@@ -6,7 +6,7 @@ public class Products {
     private double productprice;
     private int productQuantity;
 
-    public Products(int productid, String productName, double productprice, int productQuantity) {git
+    public Products(int productid, String productName, double productprice, int productQuantity) {
         this.productid = productid;
         this.productName = productName;
         this.productprice = productprice;
