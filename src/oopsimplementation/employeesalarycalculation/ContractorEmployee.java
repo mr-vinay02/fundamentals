@@ -4,7 +4,7 @@ public class ContractorEmployee extends Employee{
 
     double contractAmount ;
 
-    public ContractorEmployee(int employeeId, String employeeName, double contractAMount) {
+    public ContractorEmployee(int employeeId, String employeeName, double contractAmount) {
         super(employeeId, employeeName);
         this.contractAmount = contractAmount;
     }

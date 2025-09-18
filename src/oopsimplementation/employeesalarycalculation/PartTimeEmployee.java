@@ -1,6 +1,6 @@
 package oopsimplementation.employeesalarycalculation;
 
-public class PartTimeEmployee extends Employee{
+public class PartTimeEmployee extends Employee {
 
     private int hoursWorked;
     private int salaryPerHour;
@@ -10,7 +10,6 @@ public class PartTimeEmployee extends Employee{
         this.hoursWorked = hoursWorked;
         this.salaryPerHour = salaryPerHour;
     }
-
 
 
     @Override
