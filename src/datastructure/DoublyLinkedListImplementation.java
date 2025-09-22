@@ -18,7 +18,7 @@ public class DoublyLinkedListImplementation {
 
         list.printBackward();
 
-        list.
+
 
         System.out.println(list.checkPalindrome());
     }
