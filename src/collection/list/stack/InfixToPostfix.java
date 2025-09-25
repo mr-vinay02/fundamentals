@@ -25,7 +25,7 @@ public class InfixToPostfix {
         Stack<Character> stack = new Stack<>();
 
         for(char ch : expression.toCharArray()){
-            if(Character.isLetterOrDigit(ch))
+            if(Character.isLetterOrDigit(ch))                    //"A+B*C"
                 result.append(ch);
 
             else if (ch == '(')
