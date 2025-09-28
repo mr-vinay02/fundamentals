@@ -6,6 +6,9 @@ public class PolicyApplication {
     private boolean hasAccidents;
     private boolean hasHealthIssues;
 
+    public PolicyApplication() {
+    }
+
     public PolicyApplication(int age, boolean hasAccidents, boolean hasHealthIssues) {
         this.age = age;
         this.hasAccidents = hasAccidents;
@@ -27,7 +30,7 @@ public class PolicyApplication {
     }
 
     // Validate health records
-    public void validateHealth() throws HealthIssueException {
+    public void validateHealth(boolean hasHealthIssues) throws HealthIssueException {
         if (hasHealthIssues) {
             throw new HealthIssueException("Health Issue: Applicant has disqualifying health conditions.");
         }
