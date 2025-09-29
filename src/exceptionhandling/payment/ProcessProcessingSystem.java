@@ -8,7 +8,7 @@ public class ProcessProcessingSystem {
     {
 
         // validate Card Number
-        if( cardNumber == null || cardNumber.length() <= 16){
+        if( cardNumber == null || cardNumber.length() != 16){
             throw new InvalidPaymentDetailsException("Invalid card number! Must be 16 digits.");
         }
 
