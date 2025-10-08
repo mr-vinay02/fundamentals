@@ -1,6 +1,7 @@
 package designpatterns.ecommerencecartmanagmnet.singleton;
 
 import designpatterns.ecommerencecartmanagmnet.factory.Product;
+import designpatterns.ecommerencecartmanagmnet.observer.StockNotifier;
 
 import java.util.*;
 
