@@ -9,9 +9,9 @@ import java.util.Map;
 
 public class OrderBuilder {
 
-    private String customerId;
-    private final List<FoodItem> items = new ArrayList<>();
-    private final Map<String,String> customizations = new HashMap<>();
+    String customerId;
+    final List<FoodItem> items = new ArrayList<>();
+    final Map<String,String> customizations = new HashMap<>();
 
     public OrderBuilder forCustomer(String customerId) {
         this.customerId = customerId;
