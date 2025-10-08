@@ -10,7 +10,7 @@ public class CheckoutOrder {
     private double shippingCharge;
     private String couponCode;
 
-    private CheckoutOrder(Builder builder) {
+    CheckoutOrder(Builder builder) {
         this.products = builder.products;
         this.discount = builder.discount;
         this.shippingCharge = builder.shippingCharge;
