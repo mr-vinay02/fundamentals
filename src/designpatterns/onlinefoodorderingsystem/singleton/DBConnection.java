@@ -8,9 +8,9 @@ public class DBConnection {
         System.out.println("DB connection is established....");
     }
 
-    private DBConnection instance;
+    private static DBConnection instance;
 
-    public DBConnection getInstance(){
+    public static DBConnection getInstance(){
         if(instance == null)
             instance = new DBConnection();
         return instance;
