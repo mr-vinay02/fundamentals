@@ -14,11 +14,14 @@ public class MainObserver {
         iphone.registerObserver(customer2);
         iphone.registerObserver(customer3);
 
-        iphone.notifyObservers();
+        iphone.setInStoke(true);
 
         iphone.removeObserver(customer3);
 
-        iphone.notifyObservers();
+        iphone.setInStoke(false);
 
+        iphone.removeObserver(customer1);
+
+        iphone.setInStoke(true);
     }
 }
