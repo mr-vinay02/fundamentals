@@ -1,4 +1,4 @@
-package designpatterns.onlinefoodorderingsystem;
+package designpatterns.onlinefoodorderingsystem.singleton;
 
 
 // singleton class
