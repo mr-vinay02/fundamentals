@@ -1,4 +1,4 @@
-package designpatterns.onlinefoodorderingsystem;
+package designpatterns.onlinefoodorderingsystem.abstractfactory;
 
 import designpatterns.onlinefoodorderingsystem.factory.Burger;
 import designpatterns.onlinefoodorderingsystem.factory.Drinks;
