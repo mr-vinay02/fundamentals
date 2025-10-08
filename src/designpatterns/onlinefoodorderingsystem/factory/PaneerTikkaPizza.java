@@ -1,4 +1,4 @@
-package designpatterns.onlinefoodorderingsystem;
+package designpatterns.onlinefoodorderingsystem.factory;
 
 public class PaneerTikkaPizza  extends Pizza {
     public String getName() { return "Paneer Tikka Pizza"; }

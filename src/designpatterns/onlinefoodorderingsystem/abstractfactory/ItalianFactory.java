@@ -1,18 +1,20 @@
 package designpatterns.onlinefoodorderingsystem;
 
-public class IndianFactory implements CuisineFactory{
+import designpatterns.onlinefoodorderingsystem.factory.*;
+
+public class ItalianFactory implements CuisineFactory{
     @Override
     public Pizza createPizza(String variant) {
-        return new PaneerTikkaPizza();
+        return new MargheritaPizza();
     }
 
     @Override
     public Burger createBurger(String variant) {
-        return new MasalaBurger();
+        return new VegBurger();
     }
 
     @Override
     public Drinks createDrink(String variant) {
-        return new MasalaChai();
+        return new Coke();
     }
 }

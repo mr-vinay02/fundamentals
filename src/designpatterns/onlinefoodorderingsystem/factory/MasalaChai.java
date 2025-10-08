@@ -1,4 +1,4 @@
-package designpatterns.onlinefoodorderingsystem;
+package designpatterns.onlinefoodorderingsystem.factory;
 
 public class MasalaChai extends Drinks {
     public String getName() { return "Masala Chai"; }
