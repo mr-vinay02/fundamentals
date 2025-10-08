@@ -20,11 +20,9 @@ public class PolicyRenewalTest {
 
         try {
             renewal.renewPolicy();
-        } catch (PolicyExpiredException e) {
+        } catch (PolicyExpiredException | NonComplianceException e) {
             System.err.println(" Renewal Failed: " + e.getMessage());
         } catch (PaymentPendingException e) {
-            System.err.println(" Renewal Failed: " + e.getMessage());
-        } catch (NonComplianceException e) {
             System.err.println(" Renewal Failed: " + e.getMessage());
         } catch (Exception e) {
             System.err.println(" Unexpected Error: " + e.getMessage());
