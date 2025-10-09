@@ -1,4 +1,4 @@
-package designpatterns.ecommerencecartmanagmnet.AbstractFactory;
+package designpatterns.ecommerencecartmanagmnet.abstractfactory;
 
 import designpatterns.ecommerencecartmanagmnet.factory.Product;
 
