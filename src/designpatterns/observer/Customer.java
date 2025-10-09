@@ -9,7 +9,6 @@ public class Customer implements Observers{
     }
 
 
-
     @Override
     public void update(String productName) {
         System.out.println("Hello " + customerName + ", " + productName + " is now available. Hurry up and order!");
