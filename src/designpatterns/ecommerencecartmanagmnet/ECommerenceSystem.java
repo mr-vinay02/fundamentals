@@ -1,7 +1,7 @@
 package designpatterns.ecommerencecartmanagmnet;
 
-import designpatterns.ecommerencecartmanagmnet.AbstractFactory.RegionFactory;
-import designpatterns.ecommerencecartmanagmnet.AbstractFactory.USFactory;
+import designpatterns.ecommerencecartmanagmnet.abstractfactory.RegionFactory;
+import designpatterns.ecommerencecartmanagmnet.abstractfactory.USFactory;
 import designpatterns.ecommerencecartmanagmnet.builder.Builder;
 import designpatterns.ecommerencecartmanagmnet.builder.CheckoutOrder;
 import designpatterns.ecommerencecartmanagmnet.factory.Product;
