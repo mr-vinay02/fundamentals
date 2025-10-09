@@ -5,6 +5,9 @@ import java.util.function.Function;
 public class FunctionInterface {
     public static void main(String[] args) {
 
+        // take 1 input
+        // give 1 output
+
         // Using lambda function
         Function<Integer,Integer> square = n -> n * n;
 
