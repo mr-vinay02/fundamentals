@@ -13,5 +13,9 @@ public class EmailOptional {
 
         System.out.println(result);
         System.out.println(result2);
+
+        String optional = Optional.ofNullable(email1).orElseThrow(() -> new IllegalArgumentException("Email can't be null"));
+
+        System.out.println(optional);
     }
 }
