@@ -25,10 +25,10 @@ public class ManageStudent {
 
         Optional<Student> student = getById(101);
 
-        System.out.println(student);
+        student.ifPresent(System.out::println);
 
-        Optional<Student> noStudent = getById(15656);
+        Optional<Student> noStudent = getById(15);
 
-        System.out.println(noStudent);
+        noStudent.ifPresentOrElse(System.out::println,()-> System.out.println("null") );
      }
 }
