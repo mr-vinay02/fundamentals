@@ -1,0 +1,3 @@
+Hello Vinay!
+This is a FileWriter example.
+Java makes file handling easy!
