@@ -1,0 +1,10 @@
+Java is a popular programming language.
+It is widely used for building web applications.
+Spring Framework makes Java development faster.
+File handling is an important concept in Java.
+JSON and XML are used for data exchange.
+OOPs stands for Object Oriented Programming System.
+Encapsulation and Inheritance are key OOPs principles.
+Java supports multithreading for parallel processing.
+Exception handling helps in writing error-free programs.
+Learning Java opens doors to backend development.
