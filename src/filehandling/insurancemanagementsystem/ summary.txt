@@ -1,0 +1,2 @@
+Total number of the policies :3
+Total amount of the policies :15000.0

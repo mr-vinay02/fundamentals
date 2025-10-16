@@ -1,0 +1,3 @@
+ 101,RajeevShukla,5000
+ 102,RichaGhosh,7000
+ 103,AlluArjun,3000
