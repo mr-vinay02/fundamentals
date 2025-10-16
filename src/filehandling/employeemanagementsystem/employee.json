@@ -1,0 +1,19 @@
+[
+  {
+    "employeeId": 101,
+    "name": "vinay",
+    "department": "cse",
+    "address": {
+      "street": "mg roaad",
+      "city": "davangerae",
+      "zipcode": "4563121"
+    },
+    "projects": [
+      {
+        "projectId": 555,
+        "projectName": "wedd tech",
+        "status": "in process"
+      }
+    ]
+  }
+]
