@@ -14,11 +14,11 @@ public class BinarySearch {
             if(array[middle] == target)
                 return middle;
 
-            else if (array[middle] > target)
-                low = low + 1;
+            else if (array[middle] < target)
+                low = middle + 1;
 
             else
-                high = high +1;
+                high = middle - 1;
         }
         return  -1;
     }
